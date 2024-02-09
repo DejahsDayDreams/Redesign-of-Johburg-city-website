@@ -1,0 +1,356 @@
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+    justify-content: space-evenly;
+    background-color: #253237;
+    padding: 15px;
+    height: 160px;
+    font-size: 24px;
+    font-weight:bolder;
+}
+
+
+.nav-item a.nav-link{
+    color: #ffffff;
+   padding:15px;
+   margin-left:30px;
+
+}
+
+/* Add hover effect to navigation links */
+.nav-item a.nav-link:hover {
+    color: #ed9406; 
+  
+}
+
+
+
+
+/* Style the footer */
+footer {
+    background-color: #253237;
+    color: #fff;
+    padding: 25px ;
+}
+
+
+
+    /* Style the headings */
+    footer h4 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        color:#ffff;
+    }
+
+    /* Style the links */
+    footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+ 
+
+    footer a {
+        text-decoration: none;
+        transition: color 0.3s;
+        padding: 5px 20px; /* Preserve the left and right padding */
+        display: inline-block;
+    }
+
+.links li a
+{
+    color:#ffffffbd;
+}
+
+.links:hover {
+    color: #ed9406;
+}
+
+    footer .Social_icons img {
+        display: inline-block;
+        margin-right: 10px; /* Add some spacing between the icons  */
+        vertical-align: middle;
+        max-width: 70px; /* Ensure the images don't exceed 70px in width */
+    }
+
+
+
+.home_img {
+    background-image: url('../Images/img1.png');
+    background-size: cover;
+    background-position: center center;
+    height: 1900px;
+    
+}
+
+
+
+.ThankYou_img {
+    background-image: url('../Images/img2.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 1150px;
+}
+
+
+
+/* Style Complaint Form */
+.complaint-form {
+    background-color: #253237;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 4px solid #ed9406;
+}
+
+/* Style Compliment Form */
+.compliment-form {
+    background-color: #253237;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 4px solid #ed9406;
+}
+
+.Heading {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 0 0 15px  #ed94068c ;
+}
+
+.Heading1 {
+    color: #ed9406;
+    font-weight: bold;
+    font-size: 76px;
+    text-shadow: 1px 1px 7px #000000b8;
+}
+
+.Heading2 {
+    color: #ed9406;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 1px 1px 5px #000000b8;
+}
+
+.Heading_feedback {
+    color: #ed9406;
+    font-weight: 700;
+    font-size: 65px;
+    text-shadow: 1px 1px 10px #253237;
+    text-align:center;
+    margin:2%;
+}
+
+
+
+.About_body {
+    height: 1910px;
+}
+
+.City_body {
+    height: 5000px;
+}
+
+.Key_body {
+    height: 4400px;
+}
+
+container
+{
+    width:100%;
+}
+
+
+.Heading_About 
+{
+    color: #000000;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.Heading_City {
+    color: #000000;
+    font-weight: bold;
+    font-size: 90px;
+}
+.Heading_Key {
+    color: #000000;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.Home_container {
+    background-color: #2532378c; /* Background color */
+    padding:60px;
+    border-radius:20px;
+    width:1300px;
+    align-content:center;
+    margin-left:-8%;
+}
+
+.card .contain_links {
+    color: #fff; /* Text color */
+    background-color: #253237d9; /* Background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: transform 0.2s; /* Smooth transition on hover */
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align the content to the top and bottom */
+    align-items: center; /* Center horizontally */
+    height: 100%; /* Set a fixed height for the card body */
+    padding-bottom:5%;
+    min-height:490px;
+}
+
+
+    /* Hover effect for the card */
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+    border-radius: 15px;
+}
+
+    /* Style for the dropdown button */
+    .card .dropdown-toggle {
+        background-color: #ed9406 !important; /* Button background color */
+        color: #fff; /* Button text color */
+        border: none !important; /* Remove border */
+        width:300px;
+    }
+
+/* Style for the dropdown button smaller one */
+.card .dropdown-toggle1 {
+    background-color: #ed9406 !important; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none !important; /* Remove border */
+    width: 246px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+    /* Style for the dropdown menu */
+.card .dropdown-menu {
+    background-color: #f0ca83; /* Dropdown menu background color */
+    border: 2px solid #ffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    width: 420px;
+    overflow-y: auto;
+    z-index: 999; /* Increase the z-index to ensure it's on top of other elements */
+    position:absolute;
+    top:100%;
+
+}
+/* Style for the down arrow */
+.card .dropdown-toggle::before {
+    content: ""; /* Add an empty content */
+    position: absolute;
+    right: 10px; /* Adjust the right offset as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff; /* Arrow color */
+}
+
+/* Style for the dropdown button smaller one */
+.card .dropdown-toggle1 {
+    background-color: #ed9406 !important;
+    color: #fff;
+    border: none !important;
+    width: 246px;
+    position: relative;
+    padding-right: 30px; /* Add space for the arrow */
+}
+
+    /* Style for the down arrow for the smaller button */
+    .card .dropdown-toggle1::before {
+        content: ""; /* Add an empty content */
+        position: absolute;
+        right: 35px; /* Adjust the right offset as needed */
+        top: 50%;
+        transform: translateY(-20%);
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #fff; /* Arrow color */
+    }
+
+
+
+
+
+.card .dropdown-item {
+    color: #253237; /* Dropdown item text color */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for long text */
+}
+
+        /* Hover effect for dropdown items */
+    .card .dropdown-item:hover {
+        background-color: #F3FFFF; /* Change background color on hover */
+    }
+    .card .dropdown-item:hover {
+        background-color: #ed9406 !important; /* Same background color as menu */
+        color: #fff; /* Button text color */
+        white-space: normal; /* Allow text to wrap */
+        overflow: visible; /* Show full text on hover */
+        text-overflow: clip; /* Clip overflowing text */
+    }
+
+/* Ensure the dropdown menu opens downwards */
+.card .btn-group {
+    position: relative;
+}
+
+.card_Logo
+{
+    width:60%;
+    border-radius:10px;
+    align-items:center;
+}
+/* Style for the image */
+.card .card-body img {
+    margin-bottom: 30px; /* Add space between the image and the heading */
+}
+
+/* Style for the heading */
+.card .card-body h3 h4 h5 h6 h7 h8{
+    margin: 0; /* Reset margin to ensure the heading is centered */
+}
+
+.table
+{
+    justify-content:space-evenly;
+}
+
+
+.nested-table {
+    z-index: 999;
+    background-color: #ed9406 !important;
+    color: #fff;
+    width:250px;
+}

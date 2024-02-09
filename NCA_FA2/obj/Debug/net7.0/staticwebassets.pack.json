@@ -1,0 +1,745 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\NCA_FA2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NCA_FA2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\Aboutthecity\\About.png",
+      "PackagePath": "staticwebassets\\Images\\Aboutthecity\\About.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\Aboutthecity\\Departments.png",
+      "PackagePath": "staticwebassets\\Images\\Aboutthecity\\Departments.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\Aboutthecity\\JHB Overview.jpg",
+      "PackagePath": "staticwebassets\\Images\\Aboutthecity\\JHB Overview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\Aboutthecity\\Mission and vison.png",
+      "PackagePath": "staticwebassets\\Images\\Aboutthecity\\Mission and vison.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\Aboutthecity\\Regions.png",
+      "PackagePath": "staticwebassets\\Images\\Aboutthecity\\Regions.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\Aboutthecity\\Who is my ward councillor.png",
+      "PackagePath": "staticwebassets\\Images\\Aboutthecity\\Who is my ward councillor.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\Aboutthecity\\government.png",
+      "PackagePath": "staticwebassets\\Images\\Aboutthecity\\government.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\Aboutthecity\\regional_map2012.pdf",
+      "PackagePath": "staticwebassets\\Images\\Aboutthecity\\regional_map2012.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\Logo.png",
+      "PackagePath": "staticwebassets\\Images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\111.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\111.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\ACCOUNT AND PAYMENTS THUMB.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\ACCOUNT AND PAYMENTS THUMB.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\ANTI FRAUD HOTLINE THUMB.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\ANTI FRAUD HOTLINE THUMB.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\BUILDING PLANS THUMB.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\BUILDING PLANS THUMB.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Be City smart.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Be City smart.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\CoJ Online Billing Query Resolution Platform.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\CoJ Online Billing Query Resolution Platform.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Credit Control & Debt Collect - 01.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Credit Control & Debt Collect - 01.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Credit Control & Debt Collect - 02.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Credit Control & Debt Collect - 02.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Credit Control & Debt Collect - 03.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Credit Control & Debt Collect - 03.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Credit Control and Debt Collection Policy-Final (Council Approved 31 August 2022).pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Credit Control and Debt Collection Policy-Final (Council Approved 31 August 2022).pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Credit Control.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Credit Control.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\DEBT REHABILITATION FACT SUMMARY 2022.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\DEBT REHABILITATION FACT SUMMARY 2022.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\DEBT REHABILITATION PROGRAMME PUBLIC MEETINGS (2).pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\DEBT REHABILITATION PROGRAMME PUBLIC MEETINGS (2).pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\DR Application Form 29 April 2022.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\DR Application Form 29 April 2022.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\DRIVERS LICENSE THUMB.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\DRIVERS LICENSE THUMB.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Debt Collection Attorneys Panel.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Debt Collection Attorneys Panel.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Debt Rehabilitation Presentation amended criteria.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Debt Rehabilitation Presentation amended criteria.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Debt_Rehab_Messages2.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Debt_Rehab_Messages2.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Debt_Rehab_Messages4.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Debt_Rehab_Messages4.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Debt_Rehab_Messages5.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Debt_Rehab_Messages5.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Debt_Rehab_Messages6.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Debt_Rehab_Messages6.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Debt_Rehab_Third phase bad debt write-off.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Debt_Rehab_Third phase bad debt write-off.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\E-services-01 (1).png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\E-services-01 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\E-services-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\E-services-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\ELECTRICITY THUMB.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\ELECTRICITY THUMB.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\EMERGENCY THUMB.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\EMERGENCY THUMB.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\FAQ debt rehab April 2022.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\FAQ debt rehab April 2022.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\How to register for DR.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\How to register for DR.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\INVEST IN JOZI THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\INVEST IN JOZI THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Joburg cares-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Joburg cares-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Jozibill Newsletter Vol.1 - 23 August 2022.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Jozibill Newsletter Vol.1 - 23 August 2022.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Jozibill Newsletter Volume 2 17 October 2022 .pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Jozibill Newsletter Volume 2 17 October 2022 .pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Jozibill Newsletter volume 3.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Jozibill Newsletter volume 3.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Jozibill Newsletter volume 4_1.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Jozibill Newsletter volume 4_1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Jozibill Newsletter volume 7 10 July 2023 JOBURG BUDGET .pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Jozibill Newsletter volume 7 10 July 2023 JOBURG BUDGET .pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Jozibill Newsletter volume 8 (with MMC).pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Jozibill Newsletter volume 8 (with MMC).pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Key Benefits.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Key Benefits.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\METRO BUS THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\METRO BUS THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\METRO POLICE DEPARTMENTS THUMB-01-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\METRO POLICE DEPARTMENTS THUMB-01-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Meter reading weekly message 1.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Meter reading weekly message 1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Meter reading weekly message 3.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Meter reading weekly message 3.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Regionalisation Presentation.pptx",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Regionalisation Presentation.pptx"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\Regions.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\Regions.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\SOCIAL PACKAGE THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\SOCIAL PACKAGE THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\TARRIFS THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\TARRIFS THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\TRAFFIC FINES THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\TRAFFIC FINES THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\WASTE MANAGEMENT THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\WASTE MANAGEMENT THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\WATER SANITATION THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\WATER SANITATION THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\e-Joburg Newsletter April 2022.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\e-Joburg Newsletter April 2022.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\e-Joburg Newsletter Feb 2022.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\e-Joburg Newsletter Feb 2022.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\eJoburg meter reading post.pdf",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\eJoburg meter reading post.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\health1.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\health1.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\cityservice\\land and management.png",
+      "PackagePath": "staticwebassets\\Images\\cityservice\\land and management.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\facebook.png",
+      "PackagePath": "staticwebassets\\Images\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\google.png",
+      "PackagePath": "staticwebassets\\Images\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\img1.png",
+      "PackagePath": "staticwebassets\\Images\\img1.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\ANNUAL REPORT THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\ANNUAL REPORT THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\BY-LAWS THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\BY-LAWS THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\INTEREGATED DEVELOPMENT PLAN THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\INTEREGATED DEVELOPMENT PLAN THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\2020-21 Oversight Report on Annual Report.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\2020-21 Oversight Report on Annual Report.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\2020_2021_Rates_Policy_Draft_1.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\2020_2021_Rates_Policy_Draft_1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\2021 Property rates tariffs.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\2021 Property rates tariffs.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\2022-23 SDBIP FINAL.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\2022-23 SDBIP FINAL.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\2022-23 to 2024-25 Final Medium Term Budget reports.zip",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\2022-23 to 2024-25 Final Medium Term Budget reports.zip"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\2023-2024 IDP Budget Monitoring Evaluation  Reporting Process plan- Mayoral Committee (25august22) Final-signed (1).pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\2023-2024 IDP Budget Monitoring Evaluation  Reporting Process plan- Mayoral Committee (25august22) Final-signed (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\2023-2024 IDP Budget Monitoring Evaluation  Reporting Process plan- Mayoral Committee (25august22) Final-signed.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\2023-2024 IDP Budget Monitoring Evaluation  Reporting Process plan- Mayoral Committee (25august22) Final-signed.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\2023-24 FINAL TARIFFS.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\2023-24 FINAL TARIFFS.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ANNEXURE A.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ANNEXURE A.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ANNEXURE B.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ANNEXURE B.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ANNEXURE C.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ANNEXURE C.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ANNEXURE D.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ANNEXURE D.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ANNEXURE E.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ANNEXURE E.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ANNEXURES A TO F.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ANNEXURES A TO F.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Amendment of tariff charges for dishonoured payments.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Amendment of tariff charges for dishonoured payments.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Approved Tariffs 2021 - 2022 (2).pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Approved Tariffs 2021 - 2022 (2).pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Approved-2024-25 IDP-Process-Plan.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Approved-2024-25 IDP-Process-Plan.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Entities Business Plans.zip",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Entities Business Plans.zip"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\FINAL IDP SCHEDULE 4 Apr 23.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\FINAL IDP SCHEDULE 4 Apr 23.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Final 2020-21 IDP.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Final 2020-21 IDP.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Final 2022-27 IDP May 2022.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Final 2022-27 IDP May 2022.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\IDP,BUDGET -PROCESS PLAN.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\IDP,BUDGET -PROCESS PLAN.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ITEM 01C FINAL SCHEDULE OF TARIFFS.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ITEM 01C FINAL SCHEDULE OF TARIFFS.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ITEM 02 - (1).pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ITEM 02 - (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ITEM 03D ANNEXURE A Rates Policy 2023.2024_2_CPI Final.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ITEM 03D ANNEXURE A Rates Policy 2023.2024_2_CPI Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ITEM 05 PROPERTY RATES POLICY AND RATES BY-LAW.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ITEM 05 PROPERTY RATES POLICY AND RATES BY-LAW.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ITEM 107 ANNEXURE A.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ITEM 107 ANNEXURE A.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ITEM 109 ANNEXURES A TO D.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ITEM 109 ANNEXURES A TO D.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\ITEM 3C Consolidated2022-23FinalTariffsForApproval-19May 2022.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\ITEM 3C Consolidated2022-23FinalTariffsForApproval-19May 2022.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Item 002 DRAFT 2021-22 MIDYEAR REVISIONS REPORT FOR COUNCIL.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Item 002 DRAFT 2021-22 MIDYEAR REVISIONS REPORT FOR COUNCIL.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Public Participation Outcomes Report 2023-24.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Public Participation Outcomes Report 2023-24.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Rates Policy 2021.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Rates Policy 2021.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\Tariffs 2023 - 2024.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\Tariffs 2023 - 2024.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\businesplans.zip",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\businesplans.zip"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_A2_2021-21_JWater final  Draft Business Plan- 19 March.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_A2_2021-21_JWater final  Draft Business Plan- 19 March.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_A6_2021-22_Joburg Market final Draft Busines Plan- 19 March.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_A6_2021-22_Joburg Market final Draft Busines Plan- 19 March.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_A8_2021-22_Metrobus final Draft Business Plan- 19 March.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_A8_2021-22_Metrobus final Draft Business Plan- 19 March.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_A9_2021-22_City Power final Draft Business Plan- 19 March.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_A9_2021-22_City Power final Draft Business Plan- 19 March.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_B10_2021_22_Pikitup final Draft Business Plan-19 March 2021.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\businesplans\\Annexure_B10_2021_22_Pikitup final Draft Business Plan-19 March 2021.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\idp guide.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\idp guide.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\PDFs\\1\\notice final 2023-24 Integrated Development Plan (IDP) Budget Performance Monitoring and Reporting process plan._.pdf",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\PDFs\\1\\notice final 2023-24 Integrated Development Plan (IDP) Budget Performance Monitoring and Reporting process plan._.pdf"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\SCORECARDS AND PERFORMANCE AGREEMENTS THUMB.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\SCORECARDS AND PERFORMANCE AGREEMENTS THUMB.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\SDBIP IDP AND BUDGET THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\SDBIP IDP AND BUDGET THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\STATISTICAL PUBLICATIONS THUMB-01_png.jpg",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\STATISTICAL PUBLICATIONS THUMB-01_png.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\TARRIFS THUMB-01.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\TARRIFS THUMB-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\joburg property company.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\joburg property company.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\policies.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\policies.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\property rates tariffs-01.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\property rates tariffs-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\keydocuments\\public access to information act.png",
+      "PackagePath": "staticwebassets\\Images\\keydocuments\\public access to information act.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\Images\\twitter.png",
+      "PackagePath": "staticwebassets\\Images\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SammyAntha\\Desktop\\CTU 2023\\NCA522\\FA2\\NCA_FA2\\NCA_FA2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.NCA_FA2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.NCA_FA2.props",
+      "PackagePath": "build\\NCA_FA2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.NCA_FA2.props",
+      "PackagePath": "buildMultiTargeting\\NCA_FA2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.NCA_FA2.props",
+      "PackagePath": "buildTransitive\\NCA_FA2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

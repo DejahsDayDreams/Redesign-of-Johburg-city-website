@@ -1,0 +1,1100 @@
+﻿@{
+    ViewData["Title"] = "AboutTheCity";
+}
+
+<html>
+
+<head>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/website.css" rel="stylesheet" media="screen" />
+
+    <style>
+        /* Custom CSS to position dropdowns */
+        .custom-dropdown .dropdown-menu {
+            position: absolute;
+        }
+
+        /* CSS for the fullscreen table */
+        .fullscreen-table {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%; /* Change height to 100% for full screen */
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            z-index: 9999;
+           
+        }
+
+        /* Style for the content within the fullscreen table */
+       .fullscreen-content {
+            position: absolute;
+            border: 4px solid #ed9406;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #F3FFFF;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-y: auto; /* Enable vertical scrolling */
+            max-height: 80vh; /* Limit maximum height to 80% of the viewport height */
+        }
+    </style>
+</head>
+
+<body class="About_body">
+    <div class="container">
+        <div class="text-center">
+            <br /><br />
+            <h1 class="Heading_About">About The City</h1>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div class="container">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="card">
+                            <div class="card-body contain_links text-center">
+                                <br /><br />
+                                <img src="~/Images/aboutthecity/About.png" alt="Logo" class="card_Logo">
+                                <br /><br />
+                                <h3>About Joburg</h3><br />
+                                <button class="btn btn-primary" onclick="toggleDropdown('dropdown1')">Learn More</button>
+                                <div id="dropdown1" class="dropdown-menu" style="display: none;">
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableA1')">Overview</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableA2')">Facts</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableA3')">Johburgs Heritage</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableA4')">Communication & Media</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableA5')">Economy & Infrastructure</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableA6')">Roads</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-4">
+                        <div class="card">
+                            <div class="card-body contain_links text-center">
+                                <br /><br />
+                                <img src="~/Images/aboutthecity/Mission and vison.png" alt="Logo" class="card_Logo">
+                                <br /><br />
+                                <h3>Mission & Vision</h3><br />
+                                <button class="btn btn-primary" onclick="toggleDropdown('dropdown2')">Learn More</button>
+                                <div id="dropdown2" class="dropdown-menu" style="display: none;">
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableB1')">Mission</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableB2')">Vision</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-4">
+                        <div class="card">
+                            <div class="card-body contain_links text-center">
+                                <br /><br />
+                                <img src="~/Images/aboutthecity/government.png" alt="Logo" class="card_Logo">
+                                <br /><br />
+                                <h3>Government</h3><br />
+                                <button class="btn btn-primary" onclick="toggleDropdown('dropdown3')">Learn More</button>
+                                <div id="dropdown3" class="dropdown-menu" style="display: none;">
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableC1')">Executive</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableC2')">Council</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableC3')">Administration</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="card">
+                            <div class="card-body contain_links text-center">
+                                <br /><br />
+                                <img src="~/Images/aboutthecity/Departments.png" alt="Logo" class="card_Logo">
+                                <br /><br />
+                                <h3>Departments</h3><br />
+                                <button class="btn btn-primary" onclick="toggleDropdown('dropdown4')">Learn More</button>
+                                <div id="dropdown4" class="dropdown-menu" style="display: none;">
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableD1')">Health</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableD2')">Finance</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableD3')">Social Development</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableD4')">Transport</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-4">
+                        <div class="card">
+                            <div class="card-body contain_links text-center">
+                                <br /><br />
+                                <img src="~/Images/aboutthecity/Regions.png" alt="Logo" class="card_Logo">
+                                <br /><br />
+                                <h3>Regions</h3><br /> 
+                               <button class="btn btn-primary" onclick="toggleDropdown('dropdown5')">Learn More</button>
+                                <div id="dropdown5" class="dropdown-menu" style="display: none;">
+                                    <a class="dropdown-item" href="~/Images/Aboutthecity/regional_map2012.pdf" onclick="openFullscreen('tableE1')">Region map</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableE1')">Region Map</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableE2')">Region A</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableE3')">Region B</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableE4')">Region C</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableE5')">Region D</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableE6')">Region E</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableE7')">Region F</a>
+                                    <a class="dropdown-item" href="#" onclick="openFullscreen('tableE8')">Region G</a>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col-md-4">
+                        <div class="card">
+                            <div class="card-body contain_links text-center">
+                                <br /><br />
+                                <img src="~/Images/aboutthecity/Who is my ward councillor.png" alt="Logo" class="card_Logo">
+                                <br /><br />
+                                <h4>Who is my ward councillor?</h4><br />
+                                <button class="btn btn-primary" onclick="toggleDropdown('dropdown6')">Learn More</button>
+                                <div id="dropdown6" class="dropdown-menu" style="display: none;">
+                                    <a class="dropdown-item" href="https://www.elections.org.za/pw/Voter/Who-Is-My-Ward-Councillor" onclick="openFullscreen('tableF1')">Lets find out</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Fullscreen tables for links -->
+
+      <!-- About johburg -->
+    <div class="fullscreen-table" id="tableA1Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableA1Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableA1" class="nested-table">
+                        <tbody>
+                            
+                            <p>
+                                Johannesburg is a young city with an incredible history and legacy. 
+                                <br /><br />
+                                The settlement sprang up in 1886 when prospectors found gold in the area now known as the Witwatersrand. When the discovery became public, thousands flocked here in search of fortune and new opportunities. 
+
+                                Today, Johannesburg still attracts those who want to realise their dreams and achieve success.
+                                <br />
+                                The new city was named after two officials of the Zuid-Afrikaansche Republiek (ZAR); Johannes Meyer a and Johannes Rissik. 
+                                <br />​
+                                Johannesburg grew rapidly and quickly transformed from a small settlement into a full-fledged city. It seemed like nothing could stop its growth, not even the Anglo-Boer war. In those tumultuous times, and beyond, Johannesburg has always been recognised as the golden beating heart of South Africa.
+ 
+                                Through the years, Johannesburg has been the site of many iconic events. It was where the Springboks beat the All Blacks to take the Rugby World Cup in 1995, and, most recently, it was where South Africa showed the world that we can host an event as large as the FIFA Soccer World Cup with style and grace.
+                            </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="fullscreen-table" id="tableA2Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableA2Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    <table id="tableA2" class="nested-table">
+                        <tbody>
+                            <h2><strong>Johannesburg Overview</strong></h2>
+
+                            <p>Johannesburg has become an internationally renowned and vibrant metropolis, with over 5.5 million (5,538,596) inhabitants.</p>
+
+                            <p>Since 2011 the population growth rate has been declining from 3.5% to 2.4%. However, this was significantly higher than the Gauteng and National average, indicating that the City remains an inward migration pole (Cogta, 2019).</p>
+
+                            <p>In 2018, the City of Johannesburg Metropolitan Municipality achieved an annual growth rate of 0.77%, which is a slightly lower GDP growth than the Gauteng Province's 1.12%, and is lower than that of South Africa, where the 2018 GDP growth rate was 0.79%. Similar to the short-term growth rate of 2018, the longer-term average growth rate for City of Johannesburg (1.50%) is also very similar to that of South Africa (1.50%). The economic growth in City of Johannesburg peaked in 2008 at 4.66% (Cogta, 2019).</p>
+
+                            <p>It is the most powerful commercial center on the African continent.</p>
+
+                            <p>Johannesburg generates 16 percent of South Africa's GDP and employs 12 percent of the national workforce. Its infrastructure matches leading first-world cities, yet the cost of living is far lower. The city is recognized as the financial capital of South Africa and is home to 74 percent of Corporate Headquarter.</p>
+
+                            <p>South Africa’s only stock exchange, the Johannesburg Securities Exchange (JSE) rates as one of the top 20 exchanges in the world in terms of market capitalization. The city’s profusion of trees over 6 million, make it the largest, man-made forest in the world. Climate – temperature neither humid nor too hot for comfort, year-round sunshine and daily clear blue skies. Winters are short and mild. Medical care is first-world, sophisticated, and dependable. Johannesburg has become a destination of choice for business due to an outstanding reputation for quality and affordability. After modest beginnings as a mining town, Johannesburg has become recognized as a major world city and the economic capital of both South and sub-Saharan Africa. The greater Johannesburg metropolis covers an area of 2,300km², making it larger than Sydney, London, or New York, and similar in size to Los Angeles.</p>
+
+                            <h3><strong>Employment by sector</strong></h3>
+
+                            <p>According to Cogta (2019), The city also provides the highest number of jobs compared to other cities in the Province i.e. 2.13 million people or 41.88% of the total employment in Gauteng Province is employed within the Metro. About 52.6% of the economically active population are employed, in Johannesburg. 77% of them are employed in the formal sector. The finance sector employs the most with for 26.1% of those employed in that sector. 22% are employed in the trade and retail sector. 17% are in the community services sector which includes the general government services, given that the provincial capital is in the city. The agriculture sector employs the least share of people at 0.6%. 8% of the employed are employed in the informal sector, which has significantly grown from employing 225,000 people in 2008 to an estimated 351,000 in 2018.4 Most of these jobs are generated in trade. Only 5% of young people are employed in the highly skilled manufacturing sector, thus pointing to a need for education and skills development targeting this youth.</p>
+
+                            <h3><strong>The largest share of Johannesburg’s population, about 40%, is within the young working age (25-44 years) category. Relative to the national population, Johannesburg has a significantly larger share of the working age population between 25 and 49 years old. This may be because young people migrate to Johannesburg to look for opportunities (Cogta, 2019).</strong></h3>
+
+                            <h3><strong>Johannesburg by numbers</strong></h3>
+
+                            <ul>
+                              <li>Founded in 1886 – Johannesburg is one of the world’s youngest major cities</li>
+                              <li>Within a century, the city has been rebuilt four times: from a tented camp, it evolved into a town of tin shanties, followed by four-storey Edwardian brick buildings, before morphing into a city of modern skyscrapers</li>
+                              <li>Johannesburg houses the tallest office block in Africa, the Carlton Centre (50 storeys) and the tallest tower, the Hillbrow Tower (270m, or 90 storeys)</li>
+                              <li>Johannesburg is nicknamed 'Egoli', which means 'place of gold'. Forty percent of the world's gold has been found in the Witwatersrand, the reef on which the city was built</li>
+                              <li>The altitude is 2,000m above sea level. Because Johannesburg's air is thinner than that at the coast, eggs take an extra minute to boil at this altitude</li>
+                              <li>There are over 10 million trees in Johannesburg</li>
+                              <li>The city enjoys an average of 12 hours of sunlight a day</li>
+                            </ul>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="fullscreen-table" id="tableA3Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableA3Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    <table id="tableA3" class="nested-table">
+                        <tbody>
+                            <p>The Directorate provides a diverse range of services including the collection, conservation and proclamation of unique and diverse cultural heritage of South Africans within the City of Johannesburg. It provides residents with creative and cultural outlets and access to galleries and museums.
+                                <br /><br />
+                                It manages the City's museums, promotes historic sites, public art and also co-ordinates and presents arts programmes. The Directorate plays a critical role in economic, social and urban regeneration and in developing human talent and the vision of Johannesburg as a Creative City. 
+                                <br /><br />
+                                Being the cultural hub of the Creative Industries in South Africa, Joburg's creative industries strategy is a powerful way to enhance the City’s profile, identity and distinctiveness, while simultaneously creating employment, developing human skills and promoting social cohesion.​​ 11 centers Collect, preserve and make accessible heritage collections in 
+                                Education and public programme, Historic commemorations; ​monuments and memorials; Extending Portfolio of public arts.​</p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="fullscreen-table" id="tableA4Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableA4Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    <table id="tableA4" class="nested-table">
+                        <tbody>
+                            <p>The city is home to several media groups which own a number of newspaper and magazine titles. The two main print media groups are Independent Newspapers and Naspers (Media24). The country's electronic media is also headquartered in the greater metropolitan region. Beeld is a leading Afrikaans newspaper for the city and the country, while the Sunday newspaper City Press is the third largest selling newspaper in South Africa.<br /><br />
+                                The Sowetan is one of a number of titles catering for the black market although in recent years it competes against newly arrived tabloids. The Mail & Guardian is an investigative liberal newspaper while The Citizen is a tabloid-style paper, and The Star is a local newspaper that mostly covers Gauteng-related issues. The Sunday Times is the most widely read national Sunday newspaper. True Love is the most widely read women's magazine, catering primarily to the up-and-coming middle class black female market, and published by Media 24. The Times is a national newspaper that covers current issues.<br /><br />
+                                Media ownership is relatively complicated, with a number of cross shareholdings which have been rationalised in recent years, resulting in the movement of some ownership into the hands of black shareholders. This has been accompanied by a growth in black editorship and journalism. Johannesburg has a number of regional radio stations such as YFM, Metro FM, Phalaphala FM, Talk Radio 702, Highveld Stereo now known as 947, 5FM, UJ FM and Kaya FM and Classic FM.<br /><br />
+                                The number of radio stations has increased in recent years as the government has sold off frequencies to private companies. Johannesburg is also the headquarters of state-owned broadcaster South African Broadcasting Corporation and pay-broadcast network Multichoice which distributes M-Net and DStv a digital satellite service, while eTV also has a presence in the city. The city has two television towers, the Hillbrow Tower and the Sentech Tower.<br /><br />
+                                Johannesburg has 4 major cellular telecommunications operators: Vodacom, MTN, Cell C, and Telkom Mobile. Vodacom's global headquarters is located in Midrand. It was formed in 1994, just after the South African elections of 1994</p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="fullscreen-table" id="tableA5Fullscreen">
+        <div class="fullscreen-content">
+             <button class="btn btn-secondary" onclick="closeFullscreen('tableA5Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    <table id="tableA5" class="nested-table">
+                        <tbody>
+                            <p>Johannesburg is one of the world's leading financial centres and it is the economic and financial hub of South Africa, producing 16% of South Africa's gross domestic product, and accounts for 40% of Gauteng's economic activity. In a 2008 survey conducted by MasterCard, Johannesburg ranked 47 out of 50 top cities in the world as a worldwide centre of commerce (the only city in Africa)
+                                Mining was the foundation of the Witwatersrand's economy, but its importance is gradually declining due to dwindling reserves and service and manufacturing industries have become more significant to the city's economy. While gold mining no longer takes place within the city limits, most mining companies still have their headquarters in Johannesburg. The city's manufacturing industries extend across a range of areas and there is still a reliance on heavy industries including steel and cement plants.<br /><br />
+                                The service and other industries include banking, IT, real estate, transport, broadcast and print media, private health care, transport and a vibrant leisure and consumer retail market. Johannesburg has Africa's largest stock exchange, the JSE although it has moved out of the central business district. Due to its commercial role, the city is the seat of the provincial government and the site of a number of government branch offices, as well as consular offices and other institutions.<br /><br />
+                                The Witwatersrand urban complex is a major consumer of water in a dry region. Its continued economic and population growth has depended on schemes to divert water from other regions of South Africa and from the highlands of Lesotho, the biggest of which is the Lesotho Highlands Water Project, but additional sources will be needed early in the 21st century.<br /><br />
+                                The container terminal at City Deep is known to be the largest "dry port" in the world, with some 50% of cargo that arrives through the ports of Durban and Cape Town arriving in Johannesburg. The City Deep area has been declared an IDZ (industrial development zone) by the Gauteng government.</p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="fullscreen-table" id="tableA6Fullscreen">
+        <div class="fullscreen-content">
+             <button class="btn btn-secondary" onclick="closeFullscreen('tableA6Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    <table id="tableA6" class="nested-table">
+                        <tbody>
+                            <p>The fact that Johannesburg is not near a large navigable body of water has meant that ground transportation has been the most important method of transporting people and goods in and out of the city. One of Africa's most famous "beltways" or ring roads/orbitals is the Johannesburg Ring Road. The road is composed of three freeways that converge on the city, forming an 80-kilometre (50 mi) loop around it: the N3 Eastern Bypass, which links Johannesburg with Durban; the N1 Western Bypass, which links Johannesburg with Pretoria and Cape Town; and the N12 Southern Bypass, which links Johannesburg with Witbank and Kimberley.<br /><br />
+                            The N3 was built exclusively with asphalt, while the N12 and N1 sections were made with concrete, hence the nickname given to the N1 Western Bypass, "The Concrete Highway". In spite of being up to 12 lanes wide in some areas, the Johannesburg Ring Road is frequently clogged with traffic. The Gillooly's Interchange, built on an old farm and the point at which the N3 Eastern Bypass and the R24    airport Freeway intersect, is the busiest interchange in the Southern Hemisphere. It is claimed that the N1 is the busiest road in South Africa.<br /><br />
+                            Johannesburg has the most freeways connected to it. It has the N1, N3, N12, N14, N17, R21, R24 and the R59, all leading to Johannesburg. The M1 and M2 freeways were built to direct traffic towards the city centre. These two freeways are congested due to mass urbanisation.<br /><br />
+                            Johannesburg shares a network of metropolitan routes with Krugersdorp and Ekurhuleni.</p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+    <!-- Mission and vision -->
+    <div class="fullscreen-table" id="tableB1Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableB1Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableB1" class="nested-table">
+                        <tbody>
+                            <p>
+                                <b>Mission</b>
+                                <br /><br /><br /><br />
+                                We shall foster citizen centric ethos through service excellence.  The department through its governance model shall ensure a well-governed, managed and developed City, with enhanced levels of accountability and citizen participation at local governance level.
+                            </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+     <div class="fullscreen-table" id="tableB2Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableB2Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableB2" class="nested-table">
+                        <tbody>
+                            <p>
+                                <b>Vision</b>
+                                <br /><br />
+                                To contribute to the City's motto of "Service with Pride" by being responsive to the needs of the community; through regional co-ordination, integration, monitoring and enforcement of service delivery standards at grass-roots level within communities thereby ensuring a clean, green, healthy and safe urban environment.
+                            </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- Government -->
+    <div class="fullscreen-table" id="tableC1Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableC1Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableC1" class="nested-table">
+                        <tbody>
+                            <p>
+                                ​The Executive Mayor - Kabelo Gwamanda​<br /><br /><br />
+                                ​MMC for Finance - Cllr. Dada Morero<br /><br /><br />
+                                ​MMC for Corporate and Shared Services - Cllr. Loyiso Masuku<br /><br /><br />
+                                ​​​MMC for Transport - Kenny Kunene<br /><br /><br />
+                                ​​​​MMC for Development Planning - Cllr. Eunice Mgcina<br /><br /><br />
+                                ​MMC for Human Settlements​ - Cllr. Anthea Natasha Leitch<br /><br /><br />
+                                ​MMC for Economic Development - Cllr. Nomoya Daphney Mnisi<br /><br /><br />
+                                ​MMC for Health and Social Development - Cllr. Ennie Makhafola​<br /><br /><br />
+                                ​communitydevelopment.png​MMC for Community Development - Cllr Lubabalo Magwentshu<br /><br /><br />
+                                ​​MMC for Environment and Infrastructure Services (EISD) - Cllr. Jack Sekwaila<br /><br /><br />
+                                ​​​MMC for Public Safety​ - Cllr. Mgcini Tshwaku​
+                            </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="fullscreen-table" id="tableC2Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableC2Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableC2" class="nested-table">
+                        <tbody>
+                            <p>
+                               <b> Composition of Council:</b> 
+                                <br /><br />
+                                ANC 91, DA 71, ACTIONSA 44, EFF 29, PA 8, IFP 7, VF PLUS 4, ACDP 3, ALJAMA 3, AIC 2, AHC 1, APC 1, ATM 1, COPE 1, GOOD 1, PAC 1, UDM 1, UIM 1​
+                                <br /><br />
+                                <b>Executive Mayor:</b>
+                                Cllr Kabelo Gwamanda (AL JAMA-AH)
+                                <br /><br />
+                                <b>Speaker:</b>
+                                Cllr Colleen Makhubele
+                                <br /><br />
+                                <b>Chief Whip:</b>
+                                Cllr Sithembiso Zungu
+                                <br /><br />
+                                <b>Other Council:</b>
+                                Cllr ​Kenny Kunene (MMC: Transport)<br /><br />
+                                Cllr Anthea Natasha Leitch (MMC: Housing)<br /><br />
+                                Cllr Anthea Natasha Leitch (MMC: Hum​an Settlements)<br /><br />
+                                Cllr Lubabalo Magwentshu (MMC: Community Development)<br /><br />
+                                Cllr Ennie Makhafola (MMC: Health and Social Development)<br /><br />
+                                Cllr ​Loyiso Masuku (MMC: Group Corporate and Shared Services)<br /><br />
+                                Cllr Eunice Mgcina (MMC: Development Planning)<br /><br />
+                                Cllr Nomoya Daphney Mnisi (MMC: Economic Development)<br /><br />
+                                Cllr Dada Morero (MMC: Finance)<br /><br />
+                                Cllr Sepetlele Raseruthe (MMC: Public Safety)<br /><br />
+                                Cllr Mr Jack Sekwaila (MMC: Environment and Infrastructure Services)<br /><br />
+
+                            </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+     <div class="fullscreen-table" id="tableC3Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableC3Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableC3" class="nested-table">
+                        <tbody>
+                            <p>
+                                Chief Operations Officer: Thedi Moropa<br /><br />
+                                ​Group corporate and shared services1.png​Group Chief Financial Officer: Tebogo Moraka​<br /><br />
+                                ​Group corporate and shared services1.pngChief Operations Officer: Thedi Moropa<br /><br />
+                                ​Group corporate and shared services1.pngGICT: Aubrey Mochela<br /><br />
+                                citizen relationship and urban management.pngGroup Citizen Relationship and Urban Management: Head of Department: Thandu Mendrew<br /><br />
+                                ​group legal and contracts.png Group Legal and Contracts:​ Head of Department: Segala Malahlela (Acting)<br /><br />
+                                ​group communications & marketing2.png Group Communications & Marketing:​ Head of Department: Bongi Mokaba​​ (Acting)​​​<br /><br />
+                                ​​external relations unit.png​Group Strategy, Policy, Coordination and Relations: Zayd Ebrahim​​​​​​<br /><br />
+                                ​​Preview of this imageGroup Forensics and Investigation Services: Sinaye Nxumalo (Acting)​​<br /><br />
+                                Development Planning: Head of Department: Zunaid Khan​​<br /><br />
+                                ​Community Development1.pngCommunity Development: Head of Department: Vincent Campbell<br /><br />
+                                Economic ​​Development: Head of Department: Tembeka Mhlekwa​<br /><br />
+                                Emergency Management Services (EMS): Head of Department: Arthur Mqwa<br /><br />
+                                Envir​onment, Infrastructure and Services Department: Head of Department: ​Tiaan ​​Ehlers​​<br /><br />
+                                ​Finance: Head of Department: Goodwill Manenzhe<br /><br />
+                                ​Health: Head of Department: Frans Mosiane​ (Acting)<br /><br />
+                                ​Social Development Matome Mkgoba​<br /><br />
+                                Housing: Head of Department: Patrick Phophi​​<br /><br />
+                                Public Safety: Head of Department: Andries Mucavele<br /><br />
+                                Transport: Head of Department: ​Dorothy Mabuza​​<br /><br />
+                                ​Joburg centre1.pngGroup Risk and Assurance Services: Head of Department: Sinaye Nxumalo<br /><br />
+                                ​Group corporate and shared services1.pngGroup Corporate and Shared Services: Executive Director: Siyabonga Nodu<br /><br />
+                                ​Group corporate and shared services1.pngGroup Governance: Head of Department: Mlandu Kona<br /><br />
+                            </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Departments -->
+    <div class="fullscreen-table" id="tableD1Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableD1Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableD1" class="nested-table">
+                        <tbody>
+                            <p>
+                             <h2><strong>Department of Community Development Overview</strong></h2>
+
+                                <p>The Department of Community Development within the City of Johannesburg aims to transform the delivery of sports, arts, culture, and libraries by ensuring equitable access, development, and excellence at all levels of participation, thereby improving social cohesion, nation-building, and the quality of life for all in the City of Joburg. Its service delivery model of collaborations and partnerships is aligned with the City’s frameworks like the Growth and Development Strategy 2040 (GDS 2040) and the Integrated Development Plan (IDP). The Department aligns strongly with outcome 1 and 4 of the GDS 2040, that is to improve the quality of life and development-driven resilience for all and a high-performing metropolitan government that proactively contributes to and builds a sustainable, socially inclusive, locally integrated, and globally competitive Gauteng City Region.</p>
+
+                                <p>The Department of Community Development oversees the care and maintenance of 57 swimming pools, 113 recreation centers, 283 sports facilities, 87 libraries, and 11 museums.</p>
+
+                                <h3><strong>Vision</strong></h3>
+                                <p>A thriving community that is vibrant, knowledgeable, and resilient.</p>
+
+                                <h3><strong>Mission</strong></h3>
+                                <p>We shall achieve this vision by proactively delivering and creating a developmental space that in 2040 is resilient, sustainable, and liveable. We shall present a place of choice for knowledge, leisure, cultural exchange, physical well-being, and social interaction.</p>
+
+                                <h3><strong>Core Values</strong></h3>
+                                <ul>
+                                  <li>Universality: Services are made available to all residents;</li>
+                                  <li>Inclusivity: Embraces diversity and recognizes that individuals have a right to services and participate in community development matters;</li>
+                                  <li>Reliability: Perform our duties with integrity, honesty, and diligence;</li>
+                                  <li>Accountability: Takes responsibility for our decisions and actions;</li>
+                                  <li>Community Centeredness: At the core of a caring city, people are cared for in a holistic way - individual growth and development, intellectual, physical, moral, emotional, and spiritual well-being.</li>
+                                </ul>
+
+                                <p>The department has several directorates, each with separate responsibilities:</p>
+
+                                <h3><strong>Service Directorate</strong></h3>
+                                <ul>
+                                  <li>Arts Culture and Heritage</li>
+                                  <li>Libraries and Information Services</li>
+                                  <li>Sport and Recreation</li>
+                                </ul>
+
+                                <h3><strong>Support Units</strong></h3>
+                                <ul>
+                                  <li>Business Management Support</li>
+                                  <li>Integrated Policy Planning and Research</li>
+                                  <li>Finance</li>
+                                  <li>Facility Enhancement Unit</li>
+                                </ul>
+                            </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+     <div class="fullscreen-table" id="tableD2Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableD2Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableD2" class="nested-table">
+                        <tbody>
+                            
+                             <h2><strong>Group Finance Cluster Overview</strong></h2>
+
+                            <p>The finance department is the engine providing strategic financial leadership to the City of Johannesburg. It co-ordinates the City’s efforts through the formulation and enforcement of policies, rules and regulations to bring about sustained financial health and good governance, and the provision of appropriate, equitable and affordable services to residents.</p>
+
+                            <h2><strong>The department’s guiding principles are:</strong></h2>
+
+                            <ul>
+                              <li>Professionalism and observing protocol requisites;</li>
+                              <li>Accountability and discipline;</li>
+                              <li>Innovation – nothing is considered impossible; and</li>
+                              <li>Team spirit and teamwork.</li>
+                            </ul>
+
+                            <p><strong>Monitoring and maintenance of ethical governance is done in conjunction with relevant stakeholders.</strong></p>
+
+                            <p>The department also helps to co-ordinate and integrate cross-functional portfolios. It is responsible for the development of financial frameworks for the City’s 14 municipal-owned entities, which are owned and controlled by the council. It acts as the intermediary between the municipal-owned entities and the City’s core administration, and ensures the municipal-owned entities’ compliance with various legislative and government regulations, including the Municipal Finance Management Act (MFMA).</p>
+
+                            <p>The department falls under the member of the mayoral committee responsible for finance, MMC Jolidee Matongo.</p>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+     <div class="fullscreen-table" id="tableD3Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableD3Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableD3" class="nested-table">
+                        <tbody>
+                            <p>
+                                <b>The department is mandated to :​</b>
+
+                            •	Assist with opportunities to enable people moving out of poverty wherever possible but also assisting those chronically vulnerable to manage their many challenges and achieve a dignified standard of living​<br /><br />
+                            •	Improve access by poor and vulnerable households to social support programs and safety nets provided by the City and where possible reduce household dependency on the City​<br />
+                            •	Work with children, women, youth, older persons, PWDS, families and communities to assist them to successfully manage life tasks in the face of social disadvantage ​<br />
+                            •	Activate the private sector and civil society to act in a positive and transformational manner that is aligned to that of the City​<br />
+                            •	To identify potential economic opportunities at the community level, design and deliver community based training programmes through local public and private training providers and provide the necessary post-training support​<br />
+                            •	The Department of Social development is involved in a pro poor approach in servicing and supporting vulnerable groups in the city by responding to the conditions of poor household poverty in Johannesburg and inequalities among residents with a specific focus on addressing generational inequality and social exclusion among residents. <br />
+                            •	The vulnerable groups being served includes the very poor, migrants, children, homeless people, food insecurity, youth, senior citizens, women, People with Disabilities, people suffering from substance abuse, and victims of crime and violence.​<br />
+                            
+                            </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+       
+
+     <div class="fullscreen-table" id="tableD4Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableD4Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableD4" class="nested-table">
+                        <tbody>
+                            <p>
+                               <p>Spend any amount of time in Joburg's rush hour traffic and you will get some idea of the huge number of vehicles on the city's 9,000 kilometers of roads.</p>
+
+                                <p>Transport shapes the way city dwellers live and ensures the survival of the city itself - taking residents from home to work, schools, hospitals, stadiums, service providers, shops, and entertainment. And Joburg's transportation department makes sure that public and private transport flows smoothly for the benefit of all users.</p>
+
+                                <p>Feeder routes for Gautrain stations</p>
+
+                                <p>Find out about the road-based feeder and distribution services to the Gautrain stations here.</p>
+
+                                <p>It is responsible for the development of strategy and programs and plans to direct and manage the private, business, and public transport systems in Johannesburg towards a common, long-term City vision.</p>
+
+                                <p>It plays a key role in realizing this vision - to turn Johannesburg into a world-class African City - through coordinating transport around the city.</p>
+
+                                <p>And it aims to achieve its goal by focusing on public transport and a well-developed and well-maintained roads and stormwater drainage infrastructure, able to connect businesses, people, and places in a sustainable and cost-effective manner. In turn, this will boost standards of living and improve the overall competitiveness and growth of the local economy.</p>
+
+                                <p>The department has a raft of responsibilities. It puts in place transport policy and public transport, plans and installs transport infrastructure, takes care of road and transport safety and runs the 2010 FIFA World Cup™ projects relating to transport.</p>
+
+                                <p>To make sure that roads and public transport work towards the same goal of an efficient transport system, the department oversees two other City entities:</p>
+
+                                <p>the Johannesburg Roads Agency (JRA); and Metrobus</p>
+
+                                <p>The JRA builds and maintains roads, bridges, and stormwater systems and takes care of traffic management. Metrobus is the City's public transport provider.</p>
+                            </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+      <!-- Region -->
+    <div class="fullscreen-table" id="tableE2Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableE2Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableE2" class="nested-table">
+                        <tbody>
+                            <p>
+                               
+                                <h2><strong>Regional Director: Abigail Ndlovu</strong></h2>
+
+                                <h2><strong>Where we are</strong></h2>
+                                <p>Region A borders Centurion (part of the Tshwane Metropolitan Municipality) to the north and Mogale City (Krugersdorp) to the west. To the east is the township of Tembisa, part of the Ekurhuleni Metropolitan Municipality and on the south, it borders Alexandra, Sandton, Randburg, and Roodepoort.</p>
+
+                                <h2><strong>General description</strong></h2>
+                                <p>The western part of the region consists of many agricultural holdings and farms, though there has been an increase in business and industrial nodes, as well as formal and informal residential areas.<br>
+                                Areas such as Fourways Gardens, Bloubosrand, Cedar Lakes, and Dainfern contain affluent developments, mainly on single stands and at a low density. On the other hand, more than 70 percent of the population of Diepsloot lives in informal housing. Other informally settled areas include Riverbend and Zevenfontein.<br>
+                                Industrial developments are concentrated along Hans Strijdom Drive in Kya Sands, while major commercial activity takes place in Fourways to the south.<br>
+                                Rapidly growing Midrand is the main focus area in the eastern part of the region, with development originally confined along the old main road between Johannesburg and Pretoria, the K101.<br>
+                                The building of the Ben Schoeman highway between the two cities greatly improved accessibility to the region and resulted in an explosion of growth along the N1 corridor. Grand Central airport caters to Midrand and the surrounding areas.<br>
+                                The region also contains bird sanctuaries and the Diepsloot Nature Reserve, though this has yet to be fully utilised.<br>
+                                The main development in the eastern part of the region relates to the construction of the Gautrain Rapid Rail Link that will make its way through Midrand, on its way from Marlboro to Centurion. A sizable station is to be developed near Grand Central Airport, along with residential and commercial developments around it.<br>
+                                A property developer has also announced the construction of a major "shoppertainment centre" in the immediate vicinity of the Midrand Gautrain station.</p>
+
+                                <h2><strong>Demographic information</strong></h2>
+                                <p>The region is home to more than 250,000 residents, most of whom are concentrated in Midrand. The western part of the region is scarcely populated, though some 56,000 people reside in the township of Diepsloot alone.<br>
+                                Unemployment levels in that settlement stand at over 50 percent and more than 70 percent of the residents live below the poverty line. In the Midrand area, approximately 70 percent of residents earn less than R2 500 a month, while 34 percent earn no income at all.<br>
+                                The population in the region is relatively young, with some 24 percent being between the ages of 20 and 29. While the formal residential areas are home to prosperous and well-educated residents, most of the people living in the townships and informal settlements are poor, with low levels of school education.</p>
+
+                                <h2><strong>Key issues</strong></h2>
+                                <p>There are two key issues in the region:<br>
+                                1. The development boom in the area comes with traffic congestion and roads in the Fourways and Sunninghill areas are under tremendous pressure. Also, the N1-Ben Schoeman highway which runs through Midrand is the busiest in Africa, handling up to 120,000 vehicles a day. The South African National Roads Agency (Sanra) is busy installing a Highway Management System and introducing high occupancy lanes to reduce congestion on the road.<br>
+                                2. The development of Diepsloot is a major priority for the region and the City. The area is far from job opportunities for its residents and Diepsloot consists largely of informal housing, with extreme levels of poverty. The Cosmo City housing project aims to solve some of these inherent problems.</p>
+
+                                <h2><strong>Midrand</strong></h2>
+                                <p>300 15th Road Randiespark, Midrand.<br>
+                                Tel: 011 203-3605/3300<br>
+                                Rabie Ridge Customer Service Centre: Cnr Koraan & Kraai Avenue, Rabie Ridge.<br>
+                                Ivory Park Customer Service Centre: Erf 4326, Makaya Drive, Ivory Park.<br>
+                                Ivory Park Customer Service Centre 2: 1605 Bouganville Street, Ebony Park.<br>
+                                Diepsloot Customer Service Centre: 1443 Diepsloot West.</p>
+                              </p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fullscreen-table" id="tableE3Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableE3Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableE3" class="nested-table">
+                        <tbody>
+                                <h2><strong>General description</strong></h2>
+                                <p>Region B is well noted for its diversity, ranging from upmarket houses in both historic and newer suburbs to central Randburg and trendy Rosebank.<br>
+                                The numbers of townhouse developments in the northern areas of the Region are increasing, with residential and commercial interests competing for prime land in suburbs like Hyde Park. Robindale and Windsor also feature dense townhouse complexes and blocks of flats respectively.<br>
+                                Upmarket residential areas in the centre and to the north of the Region include Bryanston extension, Hurlingham, Sandhurst, and Dunkeld. Densification around Rosebank is expected as a direct consequence of the Gautrain station being built next to the retail precinct in that suburb.<br>
+                                Region B offers the historic, upmarket suburb of Westcliff, with its large, old homes and new businesses; Northcliff, with its spectacular views of Johannesburg; and the trendy, buzzy Melville, Parkhurst and - with the restaurant strip - Greenside; while Emmarentia, Linden, and Franklin Roosevelt Park are typical of the quiet central suburbs.<br>
+                                Older residential areas to the south of the Region, such as Coronationville, Westbury, Riverlea, and Langlaagte, have shown signs of decline over the years.<br>
+                                The Region's commercial nodes include Rosebank, Randburg, Richmond, Parktown (west of Jan Smuts Avenue), Cresta and Maraisburg, but small local retail and office areas are widespread. Industria is an important hub for industry.<br>
+                                There are significant open spaces and parks, and wetlands and watercourses link the Region with the rest of the city in terms of a green belt and stormwater drainage. Spaces with open water provide pleasant recreational areas.<br>
+                                Region B is also home to the University of Johannesburg (Auckland Park campus), the Helen Joseph Hospital, the headquarters of the South African Broadcasting Corporation and Multichoice in Randburg.<br>
+                                The Region brings together a good blend of older established suburbs, spanning koppies, open spaces and tree-lined avenues, with the hustle and bustle of Randburg and Rosebank and their surrounding residential areas.<br>
+                                Randburg is in the midst of change, as the City rolls out its plans to revitalise the central business district and bring back business lost to Regional shopping centres and other decentralised nodes.<br>
+                                A vital component in that plan is the establishment of the Randburg Management District and the overhaul of the Council-owned Civic Centre.<br>
+                                Upmarket suburbs such as Hyde Park, Sandhurst, and Dunkeld are to the east of the Region, all well served by the trendy local hub of Rosebank. Northcliff and Westcliff provide residents with spectacular natural scenery and views and are home to several parks.<br>
+                                Melville, Auckland Park, and Mayfair are in the south. The Region's suburbs range from high to low income and many, including Parktown and Mayfair, have a strong historical background.</p>
+
+                                <h2><strong>Demographic information</strong></h2>
+                                <p>The population is estimated at just over 198,000 - about 6 per cent of the population of greater Johannesburg.<br>
+                                This figure is expected to decline as a result of ageing, Aids-related deaths, a slowdown in migration into the area and an increase in migration out of the area. The Region is, however, attracting young adults.<br>
+                                Over much of the area, the population is stable and economically active, with high levels of education and disposable income. The southern areas, however, are characterised by high unemployment and low-income levels. A large segment of the population is school-going age, creating a demand for social services and educational facilities.</p>
+
+                                <h2><strong>Key issues</strong></h2>
+                                <p><strong>Development</strong></p>
+                                <p>Development is mainly economic, with rapid growth and strong pressures in and around Cresta and along the Sunnyside-University of Johannesburg belt.<br>
+                                There are also high levels of economic development along the arterial routes associated with these areas, in particular along Beyers Naude Drive and Main/Ontdekkers Road.<br>
+                                There is a strong trend towards residential densification as more townhouse complexes are built and large, single residential properties (mainly in the north) are subdivided.<br>
+                                Gentrification in some of the older, inner urban residential areas is also increasing. These include Melville and the eastern part of Westdene, and the conversion of old industrial buildings adjacent to Egoli Gas into offices.<br>
+                                In contrast, many of the southern suburbs are prone to urban decay and decline. Industrial development along the Main Reef Road belt is adversely affected by the lack of access from the N1 freeway.</p>
+
+                                <p><strong>Transportation</strong></p>
+                                <p>Inadequate linkages mean that lower-order roads take on the role of arterial routes along the busy north-east/south-west commuter route. The resulting artificial arterial road system puts pressure on the existing infrastructure.<br>
+                                In addition, inappropriate development has begun on these lesser roads, many of which run through predominantly residential areas.</p>
+
+                                <p><strong>Services</strong></p>
+                                <p>There is a stark contrast between the northern and southern sub-areas of the Region, with the latter subject to extreme poverty, unemployment and social problems. This requires intervention in the form of social development programmes and projects specifically focused on poverty alleviation and community capacity building.<br>
+                                However, there is no need for additional social facilities as the Region is well supplied. The major hospitals - Helen Joseph, Garden City, Rahima Moosa Child & Women Hospital and Milpark - are supplemented by numerous community health clinics. There is a large number of government and private schools and municipal recreation centres.</p>
+
+                                <h2><strong>Contact us</strong></h2>
+                                <p>ACA Krans Building<br>
+                                35 Symons Road, Auckland Park<br>
+                                Tel: 011 718-9622/15</p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="fullscreen-table" id="tableE4Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableE4Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableE4" class="nested-table">
+                        <tbody>
+                                <h2><strong>Johannesburg Overview</strong></h2>
+
+                                <p>Johannesburg has become an internationally renowned and vibrant metropolis, with over 5.5 million (5,538,596) inhabitants.</p>
+
+                                <p>Since 2011 the population growth rate has been declining from 3.5% to 2.4%. However, this was significantly higher than the Gauteng and National average, indicating that the City remains an inward migration pole (Cogta, 2019).</p>
+
+                                <p>In 2018, the City of Johannesburg Metropolitan Municipality achieved an annual growth rate of 0.77%, which is a slightly lower GDP growth than the Gauteng Province's 1.12%, and is lower than that of South Africa, where the 2018 GDP growth rate was 0.79%. Similar to the short-term growth rate of 2018, the longer-term average growth rate for City of Johannesburg (1.50%) is also very similar to that of South Africa (1.50%). The economic growth in City of Johannesburg peaked in 2008 at 4.66% (Cogta, 2019).</p>
+
+                                <p>It is the most powerful commercial center on the African continent.</p>
+
+                                <p>Johannesburg generates 16 percent of South Africa's GDP and employs 12 percent of the national workforce. Its infrastructure matches leading first-world cities, yet the cost of living is far lower. The city is recognized as the financial capital of South Africa and is home to 74 percent of Corporate Headquarter.</p>
+
+                                <p>South Africa’s only stock exchange, the Johannesburg Securities Exchange (JSE) rates as one of the top 20 exchanges in the world in terms of market capitalization. The city’s profusion of trees over 6 million, make it the largest, man-made forest in the world. Climate – temperature neither humid nor too hot for comfort, year-round sunshine and daily clear blue skies. Winters are short and mild. Medical care is first-world, sophisticated, and dependable. Johannesburg has become a destination of choice for business due to an outstanding reputation for quality and affordability. After modest beginnings as a mining town, Johannesburg has become recognized as a major world city and the economic capital of both South and sub-Saharan Africa. The greater Johannesburg metropolis covers an area of 2,300km², making it larger than Sydney, London, or New York, and similar in size to Los Angeles.</p>
+
+                                <h3><strong>Employment by sector</strong></h3>
+
+                                <p>According to Cogta (2019), The city also provides the highest number of jobs compared to other cities in the Province i.e. 2.13 million people or 41.88% of the total employment in Gauteng Province is employed within the Metro. About 52.6% of the economically active population are employed, in Johannesburg. 77% of them are employed in the formal sector. The finance sector employs the most with for 26.1% of those employed in that sector. 22% are employed in the trade and retail sector. 17% are in the community services sector which includes the general government services, given that the provincial capital is in the city. The agriculture sector employs the least share of people at 0.6%. 8% of the employed are employed in the informal sector, which has significantly grown from employing 225,000 people in 2008 to an estimated 351,000 in 2018.4 Most of these jobs are generated in trade. Only 5% of young people are employed in the highly skilled manufacturing sector, thus pointing to a need for education and skills development targeting this youth.</p>
+
+                                <h3><strong>The largest share of Johannesburg’s population, about 40%, is within the young working age (25-44 years) category. Relative to the national population, Johannesburg has a significantly larger share of the working age population between 25 and 49 years old. This may be because young people migrate to Johannesburg to look for opportunities (Cogta, 2019).</strong></h3>
+
+                                <h3><strong>Johannesburg by numbers</strong></h3>
+
+                                <ul>
+                                  <li>Founded in 1886 – Johannesburg is one of the world’s youngest major cities</li>
+                                  <li>Within a century, the city has been rebuilt four times: from a tented camp, it evolved into a town of tin shanties, followed by four-storey Edwardian brick buildings, before morphing into a city of modern skyscrapers</li>
+                                  <li>Johannesburg houses the tallest office block in Africa, the Carlton Centre (50 storeys) and the tallest tower, the Hillbrow Tower (270m, or 90 storeys)</li>
+                                  <li>Johannesburg is nicknamed 'Egoli', which means 'place of gold'. Forty percent of the world's gold has been found in the Witwatersrand, the reef on which the city was built</li>
+                                  <li>The altitude is 2,000m above sea level. Because Johannesburg's air is thinner than that at the coast, eggs take an extra minute to boil at this altitude</li>
+                                  <li>There are over 10 million trees in Johannesburg</li>
+                                  <li>The city enjoys an average of 12 hours of sunlight a day</li>
+                                </ul>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+         <div class="fullscreen-table" id="tableE5Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableE5Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableE5" class="nested-table">
+                        <tbody>
+                               <h2><strong>Region D (Soweto) Overview</strong></h2>
+                                <p>Region D encompasses the whole of Soweto, where Orlando was the first township. Other long-established townships include Diepkloof, Dube, Meadowlands, Orlando East, and Orlando West. There are also large informal settlements in the region.</p>
+                                <p>It has major challenges, but it takes pride in its history as the main theater for the struggle against apartheid. Many of its citizens, famous and unknown, played a major role in that struggle.</p>
+                                <p>The dynamics of urban development were not taken into consideration when Soweto and other historically disadvantaged areas were created.</p>
+                                <p>The task now is to tackle the resulting problems with determination and build on the strengths of the region, one of which is Soweto's growth as a major tourist attraction. It welcomes everyone with equal hospitality, whether they are presidents, pop stars, or ordinary members of the public.</p>
+
+                                <h3><strong>The Irrepressible Spirit of Soweto</strong></h3>
+                                <p>Region D has a difficult task ahead of it, faced with the challenge of building what was once the vast black-labor dormitory of Johannesburg into a prosperous urban area - one in which all its residents and the whole country can take pride.</p>
+                                <p>But precisely because of Soweto's history, and its central role in the larger history of South Africa, few places in the country are as determined to tackle the challenges of the future with such passion.</p>
+                                <p>If the region is heir to poverty, a mass influx of migrants seeking work, and a historical lack of decent urban planning, the scene is now set on a great deal of positive municipal and community activity. As before, it retains the irrepressible spirit of all Sowetans.</p>
+
+                                <h3><strong>Where We Are</strong></h3>
+                                <p><strong>Regional Director:</strong> Patrick Lephunya</p>
+                                <p>Soweto is a composite name, standing for South-Western Townships. Situated in the southwest of the greater metropolitan area, Region D abuts Johannesburg's mining belt to its north. Its western periphery forms the furthest boundary of the City of Johannesburg.</p>
+                                <p>On its eastern border, it is separated from Johannesburg South by the Western Bypass of the N1, and its southern neighbor is Region G (Lenasia, Ennerdale, and Orange Farm).</p>
+                                <p>Some of the suburbs of Region D include Chris Hani, Chiawelo, Diepkloof, Diepkloof Extension, Dobsonville, Doornkop/Thulani, Ebumnandini, Freedom Square, Jabulani, Meadowlands, Naledi, Orlando East, Orlando West, Protea Glen, Protea South, Slovo Park, Slovoville, and Tshepisong.</p>
+
+                                <h3><strong>General Description</strong></h3>
+                                <p>The established areas of Region D are largely composed of the old "matchbox" houses built to provide cheap accommodation for Joburg's workers during the apartheid era.</p>
+                                <p>Street after street of these are found in Region D, but in some areas, such as Diepkloof Extension, prosperous Sowetans have built houses that can be compared to those in some of Johannesburg's most upmarket suburbs.</p>
+                                <p>However, there are also large areas of informal settlements, the most extensive being in Doornkop/Thulani, Ebumnandini, Protea South, Chris Hani, Slovo Park, and Freedom Square.</p>
+                                <p>Hostels, originally built to house male migrant workers in the most basic of circumstances, are a feature of Soweto. Many of these have been improved and now accommodate couples and families.</p>
+                                <p>And many inhabitants of the "matchbox" dwellings take pride in improving and extending their homes as well as creating pretty gardens. More trees have been planted in recent years and some previously desolate parks have been upgraded and are now attractive recreation areas.</p>
+                                <p>The region is participating in the Wetlands Project, which is aimed at rehabilitating the rivers and streams of Soweto. Although many parts of the wetland have become extremely degraded, the project has the potential to provide green belt areas. There is a growing interest in the greening of Soweto, including private gardens for both decorative and food purposes.</p>
+                                <p>A major landmark in Region D is the huge, world-renowned Chris Hani Baragwanath Hospital, situated at the eastern entrance to Soweto alongside the Potchefstroom Road, which is roughly parallel to the Soweto Highway at this point.</p>
+                                <p>There is sufficient road infrastructure in many parts of the region, with busy highways running to the Johannesburg central business district and Roodepoort. Commuters are largely reliant on trains and taxis. With a history that did not allow the creation of major employment centers within Soweto, almost all its working people have to commute to work in other areas of Johannesburg.</p>
+
+                                <h3><strong>Demographic Information</strong></h3>
+                                <p>Region D's population is 1,058,978 (Census 2001, Stats SA) many of whom live in informal settlements; for example, there are 58,000 people living in Doornkop/Thulani alone. Poverty is a major problem, with high unemployment and low educational levels.</p>
+
+                                <h3><strong>Key Issues</strong></h3>
+                                <p>The overarching problem in the region is its historically based poverty and educational issues. Limited funds mean projects have to be prioritized, with the focus on such key issues as:</p>
+                                <ul>
+                                  <li>The housing backlog;</li>
+                                  <li>Economic development to deal with unemployment;</li>
+                                  <li>The shortage of primary health care clinics in Protea Glen and Slovoville;</li>
+                                  <li>Healthcare and education, especially regarding HIV/Aids and tuberculosis;</li>
+                                  <li>The shortage of libraries and books;</li>
+                                  <li>The number and quality of sport and recreation facilities;</li>
+                                  <li>Improving revenue collection strategies; and</li>
+                                  <li>Eliminating environmental degradation and instilling communities with a spirit of ownership - in this regard the council has embarked on a cleanup campaign with its waste management utility, Pikitup.</li>
+                                </ul>
+                                <p>With major development issues focus on, the region needs to ensure that all capital projects are completed on time, to secure additional funding for new capital projects and to ensure that existing facilities are well maintained and administered.</p>
+                                <p>Municipal staff training is regarded as a priority.</p>
+
+                                <p><strong>Contact Information:</strong></p>
+                                <p><strong>Sophie Masite</strong></p>
+                                <p><strong>Civic Centre Koma Road, Jabulani,</strong></p>
+                                <p><strong>P/Bag X10, Kwa-Xuma, 1868</strong></p>
+                                <p><strong>Tel: 011 986-0178/0296/0077</strong></p>
+
+                                <p><strong>Soweto</strong></p>
+                                <p><strong>Diepkloof People's Centre 729 Zone 1,</strong></p>
+                                <p><strong>Talani Street, Diepkloof</strong></p>
+                                <p><strong>Tel: 011 985-1003</strong></p>
+
+                                <p><strong>Meadowlands</strong></p>
+                                <p><strong>Tel: 011 936-5292</strong></p>
+
+                                <p><strong>Orlando East</strong></p>
+                                <p><strong>Tel: 011 935-8432</strong></p>
+
+                                <p><strong>Orlando West</strong></p>
+                                <p><strong>Tel: 011 536-2694</strong></p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="fullscreen-table" id="tableE6Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableE6Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableE6" class="nested-table">
+                        <tbody>
+                               <h2><strong>Region E Overview</strong></h2>
+                                <p>Region E is home to many of Johannesburg's older established suburbs that lie along Louis Botha Avenue, the old main road between Johannesburg and Pretoria. But it includes many of the city's newer suburbs that sprung up around developments in and near central Sandton.</p>
+                                <p>It is also home to Alexandra, an old township with a significant place in South Africa's history. Its long-standing poverty was exacerbated by the violence of the political struggle that led to a democratic South Africa, and by a continuing influx of informal settlers.</p>
+                                <p>Previously a symbol of apartheid oppression, Alex, as it is better known, now often stands as a beacon of hope. The Alexandra Renewal Project is designed to uplift the area and undo the legacy of racial inequality.</p>
+                                <p>Also in the region are the old suburbs of Houghton Estate, Oaklands, and Norwood, which are dotted with impressive old mansions, many built by those who made their fortunes on the gold mines but who wanted to get away from the hustle and bustle of the inner city.</p>
+                                <p>To its northeast border, beyond the N3 Eastern Bypass, are the suburbs of Modderfontein, Linbro Park, and Founders Hill.</p>
+                                <p>The vast region is home to a mix of highly paid professionals, middle-income workers, and lower-paid laborers. There is also a high level of unemployment, especially around Alex.</p>
+
+                                <h3><strong>Regional Director</strong></h3>
+                                <p>Liziwe Ntshinga-Makoro, the director of Region E, believes prioritizing Alexandra and other areas in the northern suburbs that are showing early signs of decay should form the core of the region's mandates.</p>
+
+                                <h3><strong>Where We Are</strong></h3>
+                                <p>The region forms one of Johannesburg's eastern borders, situated towards the northeastern end of the metro.</p>
+                                <p>To its north is Region A (Midrand), with Region B (comprising Northcliff, Craighall Park, and Randburg, among others) to the west and Region F (the inner city and Johannesburg South) to its south. To the east are the neighboring towns of Kempton Park and Germiston, which are part of the Ekurhuleni Metropolitan Municipality. As such, the region is situated within a reasonable distance of OR Tambo International Airport.</p>
+
+                                <h3><strong>General Description</strong></h3>
+                                <p>Land use in the region varies from residential in the northwest, the west, and the south, to industrial and manufacturing areas in the northeast. Alexandra, a small but densely populated area, is undergoing a radical facelift, with efforts to de-densify it, introduce proper street signage and lighting, and prevent encroachment along the banks of the Jukskei River.</p>
+                                <p>New developments along Alex's East Bank have gone some way towards alleviating housing pressure. Neighboring Alex is Sandton central - reputed to be the richest spot in Africa - complete with world-class shopping; entertainment and hospitality facilities; the JSE Limited, the South African stock exchange; office blocks housing local and multinational institutions; and luxury apartments. Sandton also has the second highest amount of office space in the country, behind the Johannesburg inner city, and has clearly established itself as the leading financial district in South Africa.</p>
+                                <p>There are a variety of established residential areas in the region, from the large expensive homes of Houghton Estate and Bryanston in the north, to the middle-income areas of Sandringham and Lyndhurst in the east and Linksfield in the center. To the south, Orange Grove and Bezuidenhout Valley are in transition, thanks to their proximity to the inner city.</p>
+                                <p>The City has been making a concerted effort to gentrify the area, by improving the infrastructure and trying to attract middle-income homeowners. Industrial areas include Wynberg, Marlboro, and Linbro Park.</p>
+                                <p>Nearby Modderfontein is used by AECI for the manufacture of explosives, and light manufacturing takes place in Wynberg. The vast Frankenwald site, owned by the University of the Witwatersrand, is earmarked for mixed-use development.</p>
+                                <p>Major roads in the region include the M1 motorway, sections of the N1 Western Bypass and the N3 Eastern Bypass, Louis Botha Avenue, Corlett Drive, Oxford Road, and Rivonia Road.</p>
+                                <p>The region's two main geographic features are the Jukskei River, which drains to the north, with its tributary Sandringhamspruit, and a portion of Linksfield Ridge to the south. The latter is regarded as ecologically sensitive, as are the Harvey Nature Reserve, the Mervyn King Trail, and the Jukskei and its tributaries. Aside from its rich diversity of trees, bushes, flowers, and bird life, Linksfield Ridge is also of historical importance. In addition, a section of Modderfontein has been designated as a conservation area, but it has yet to be fully developed and remains under-utilized.</p>
+                                <p>The Jukskei River has been adversely affected by very large informal settlements in Alex. People living below the flood line have frequently suffered during heavy rains when the river floods its banks. Johannesburg is involved in several initiatives to rehabilitate the river and its banks; a prime example is the development of Jukskei Park on the eastern bank of the river in Alexandra. City Parks has also been conducting education programs, encouraging school children to clean up the river and to urge others to keep it clean.</p>
+
+                                <h3><strong>Demographic Information</strong></h3>
+                                <p>The estimated population of the region is 394,000, representing 14 percent of the population of Greater Johannesburg. It is composed of 87 percent black, 11 percent white, 1 percent Indian, and 1 percent colored people, mostly between 17 and 35 years old. The extremely low percentage (less than 5 percent) of children and the elderly highlights the transient nature of the inhabitants of Alex.</p>
+
+                                <h3><strong>Key Issues</strong></h3>
+                                <p>There are a number of challenges facing the region, including:</p>
+                                <ul>
+                                  <li>An uncontrolled influx of people into Alexandra;</li>
+                                  <li>Informal settlers along the banks of the Jukskei River;</li>
+                                  <li>Perceived high-risk areas;</li>
+                                  <li>A housing backlog in Alexandra;</li>
+                                  <li>A rise in illegal occupation of land in Marlboro South;</li>
+                                  <li>Decay in the Orange Grove area; and</li>
+                                  <li>Traffic congestion in the Sandton area.</li>
+                                </ul>
+
+                                <h3>Contact Details Region E</h3>
+
+                                <p><strong>Sandton</strong></p>
+                                <p>137 Daisy Street, Sandton</p>
+                                <p>Tel: 011 582 1400</p>
+
+                                <p><strong>Alexandra satellite</strong></p>
+                                <p>Alexandra multi-purpose centre</p>
+                                <p>Ground floor</p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="fullscreen-table" id="tableE7Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableE7Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableE7" class="nested-table">
+                        <tbody>
+                               <h2><strong>Region F Overview</strong></h2>
+                                <p>Region F provides all its residents with access to good quality, affordable services, in a customer focused and responsive manner.</p>
+                                <p>Its slogan is "Always striving for service excellence", which shows its intention to support fully the implementation of the City's programmes and projects.</p>
+                                <p>Partly comprising Johannesburg's central areas, or the inner city, the region is the site of the original mining camps of the City of Gold, which was established towards the end of the 19th century.</p>
+                                <p>Over time, the city spread out: its central business district became dense, with high-rise office and residential buildings and excellent infrastructure were developed. Some of the earliest residential, business and industrial areas that grew up around the centre of Johannesburg form part of Region F.</p>
+                                <p>There was an exodus of business investment to decentralised nodes during the 1980s and 90s, resulting in degradation of the CBD and a spread of urban blight into some surrounding areas.</p>
+                                <p>For all its problems, however, the region is blessed with some of Johannesburg's most important facilities and attractions, including the University of the Witwatersrand and world-class theatres.</p>
+                                <p>It is also the hub of the city's transport network and is still home to a significant business population, especially in the banking sector.</p>
+                                <p>Region F contains a collection of upper- and lower-income residential areas mixed with a number of older, heavier industrial nodes. From an industrial perspective, there are limited new developments in these areas, but they are generally well located on the freeway system, with easy access to the M1, M2 and N1 highways.</p>
+                                <p>The province's only inland container terminal is found at City Deep.</p>
+                                <p>Though in the past there has been less retail development in the southern part of the region than in the active north of Johannesburg, this has changed drastically with the building of Southgate and The Glen Shopping Centre, among others.</p>
+
+                                <h3><strong>Regional Director</strong></h3>
+                                <p>Nkosinathi Mtetwa is not one for desktop models. The regional director of Region F prefers to walk the inner city streets himself to see first-hand what goes on.</p>
+
+                                <h3><strong>Where We Are</strong></h3>
+                                <p>Region F is bound by Killarney Ridge in the north – Regions E (Houghton and Orange Grove) and B (Parktown), the Ekurhuleni Metropolitan Municipality to the east, the Klip River to the south, and to the west by Regions D (Soweto) and G (Joburg South). It includes Southgate, Fordsburg, and Mayfair.</p>
+                                <p>It combines Johannesburg's inner city and its lower density, predominantly residential areas to the east of the City Centre. The higher density suburbs of Berea and Hillbrow are to the northeast, and the areas of Newtown, Fordsburg, Pageview, and Vrededorp are to the west.</p>
+                                <p>The southern boundary of Region F comprises the southeastern corner of the metro and is commonly known as Johannesburg South. To the north, it meets the inner city along the mining belt and the M2 freeway.</p>
+
+                                <h3><strong>General Description</strong></h3>
+                                <p>Land use in the region varies from residential in the northwest, the west and the south, to industrial and manufacturing areas in the northeast. Alexandra, a small but densely populated area, is undergoing a radical facelift, with efforts to de-densify it, introduce proper street signage and lighting and prevent encroachment along the banks of the Jukskei River.</p>
+                                <p>New developments along Alex's East Bank have gone some way towards alleviating housing pressure. Neighboring Alex is Sandton central - reputed to be the richest spot in Africa - complete with world-class shopping; entertainment and hospitality facilities; the JSE Limited, the South African stock exchange; office blocks housing local and multinational institutions; and luxury apartments. Sandton also has the second highest amount of office space in the country, behind the Johannesburg inner city, and has clearly established itself as the leading financial district in South Africa.</p>
+                                <p>There are a variety of established residential areas in the region, from the large expensive homes of Houghton Estate, Saxonwold, and Bryanston in the north, to the middle-income areas of Sandringham and Lyndhurst in the east and Linksfield in the center. To the south, Orange Grove, Bezuidenhout Valley, and Malvern are in transition, thanks to their proximity to the inner city.</p>
+                                <p>The City has been making a concerted effort to gentrify the area, by improving the infrastructure and trying to attract middle-income homeowners. Industrial areas include Wynberg, Marlboro, and Linbro Park.</p>
+                                <p>Nearby Modderfontein is used by AECI for the manufacture of explosives, and light manufacturing takes place in Wynberg. The vast Frankenwald site, owned by the University of the Witwatersrand, is earmarked for mixed-use development.</p>
+                                <p>Major roads in the region include the M1 motorway, sections of the N1 Western Bypass and the N3 Eastern Bypass, Louis Botha Avenue, Corlett Drive, Oxford Road, and Rivonia Road.</p>
+                                <p>The region's two main geographic features are the Jukskei River, which drains to the north, with its tributary Sandringhamspruit, and a portion of Linksfield Ridge to the south. The latter is regarded as ecologically sensitive, as are the Harvey Nature Reserve, the Mervyn King Trail, and the Jukskei and its tributaries. Aside from its rich diversity of trees, bushes, flowers, and bird life, Linksfield Ridge is also of historical importance. In addition, a section of Modderfontein has been designated as a conservation area, but it has yet to be fully developed and remains under-utilized.</p>
+                                <p>The Jukskei River has been adversely affected by very large informal settlements in Alex. People living below the flood line have frequently suffered during heavy rains when the river floods its banks. Johannesburg is involved in several initiatives to rehabilitate the river and its banks; a prime example is the development of Jukskei Park on the eastern bank of the river in Alexandra. City Parks has also been conducting education programs, encouraging school children to clean up the river and to urge others to keep it clean.</p>
+
+                                <h3><strong>General Description</strong></h3>
+                                <p>Region F is an area of contrasts; it ranges from degraded residential areas such as Bertrams and the more stable commercial suburb of Braamfontein, to the affluent middle- and upper-income suburbs of Glenvista, Mulbarton, and Bassonia along the region's southern boundary.</p>
+                                <p>The central area (Joburg's central business district) has a vibrant street life, with an estimated one million commuters passing through the inner city daily. It functions as a regional shopping node for residents from around Johannesburg and visitors from other African countries.</p>
+                                <p>Because of well-maintained infrastructure, Region F is well integrated with the surrounding urban areas. All major arterial roads originate from this area and radiate out into other parts of the city. The main railway station, bus terminuses, and large taxi ranks are also situated within the inner city.</p>
+                                <p>The suburbs close to the inner city, in particular, Joubert Park, Hillbrow, and Berea, have a large number of high-rise blocks of flats. The CBD has a lack of green open space, although small neighborhood parks exist in the suburbs. Joubert Park is the main green space in Johannesburg and is home to the Johannesburg Art Gallery.</p>
+                                <p>Johannesburg South leads through some of Johannesburg's oldest working-class suburbs, with newer residential developments spreading outwards as the further one moves from the city.</p>
+
+                                <h3><strong>Demographic Information</strong></h3>
+                                <p>The region's population is estimated to be 433,054 (Census 2001, Stats SA). However, this figure is inaccurate because the number of people living in the inner city on a temporary basis is unknown.</p>
+                                <p>There is a distinct difference in demographics between the inner city and the southern part of this region. In the past few years, higher-income residents and whites have moved away from the inner city bowl and are being replaced by a lower-income population of blacks.</p>
+                                <p>This is in complete contrast to the southern part of the region – Mulbarton, Glenvista, Aspen Hills, Allan Manor, Bassonia, and so forth – which is 66 per cent white and relatively youthful, with 38 per cent being under 25 years old.</p>
+                                <p>The population of Johannesburg South is young and growing, partly because of an influx of new homeowners from Soweto drawn by better housing, land value, and facilities, as well as swift, convenient access to their places of employment.</p>
+
+                                <h3><strong>Key Issues</strong></h3>
+                                <p>Addressing city blight, the degradation of buildings and physical deterioration of service infrastructure;</p>
+                                <p>Decreasing high levels of crime and lack of security;</p>
+                                <p>Reversing the flight of office workers and associated users to suburban nodes;</p>
+                                <p>Addressing the physical degradation of public areas caused by litter and decay;</p>
+                                <p>Upgrading the area to stop the decline in rentals and property values;</p>
+                                <p>Decreasing illegal occupation and land invasion in residential suburbs and vacated buildings; and</p>
+                                <p>Paying attention to the increasing presence of immigrant entrepreneurs and associated xenophobic tendencies.</p>
+                                <p>Johannesburg South</p>
+                                <p>There are a number of issues specific to the Johannesburg South suburbs.</p>
+                                <p>A declining office environment in favor of the northern suburbs;</p>
+                                <p>Addressing dust and run-off pollution from mine dumps;</p>
+                                <p>Increasing safety and security at Aeroton; and</p>
+                                <p>The under-utilization of precincts around Nasrec and FNB Soccer City.</p>
+
+                                <h3>Contact Details Region E</h3>
+
+                                <p><strong>Inner City</strong></p>
+                                <p>Ground Floor,</p>
+                                <p>CJ Cronje Building,</p>
+                                <p>80 Loveday Street</p>
+                                <p>Tel: 011 376-8600</p>
+
+                                <p><strong>Joburg South</strong></p>
+                                <p>Eureka House,</p>
+                                <p>92 Marlborough Road, Springfield</p>
+                                <p>Tel: 011 681-8000</p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <div class="fullscreen-table" id="tableE8Fullscreen">
+        <div class="fullscreen-content">
+            <button class="btn btn-secondary" onclick="closeFullscreen('tableE8Fullscreen')">Close</button>
+            <div class="card">
+                <div class="card-body">
+                    
+                    <table id="tableE8" class="nested-table">
+                        <tbody>
+                              <h2><strong>Region G Overview</strong></h2>
+                                <p>Region G forms the southern periphery of the City and is composed of the following wards 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 17, 119, 120, 121, 122 and 131. Drieziek, Eldorado Park, Ennerdale, Finetown, Kanana Park, Lakeside, Lawley, Lenasia, Nancefield, Orange Farm, Stretford Extensions, Vlakfontein, and Zakariyya Park fall within the boundaries of Region G.</p>
+                                <p>The Region is on the southern edge (Deep South) of the seven administrative areas of the City of Johannesburg (CoJ). It borders Region D to the northwest and Region F to the northeast. To the west and southwest, it shares a boundary with Westonaria in the West Rand District Municipality. To the east and southeast, the perimeter extends to Emfuleni and Midvaal in the Sedibeng District Municipality.</p>
+                                <p>The region’s northern side consists mainly of residential development intermixed with pockets of undeveloped land. To the east, it consists of vast tracts of farmland with islands of residential developments stretching to Eikenhof. The southeastern part is more densely populated but also consists of mostly extensive portions of farmland. The southwestern and west side is a vast undeveloped and almost exclusively agricultural expanse stretching up to the isolated settlement of Poortjie. The north-western side is mainly residential with a small industrial component – Klipriviersoog.</p>
+                                <p>The region’s north-to-south road links are the N1 and the Golden Highway (R553). From east to west, it is intersected by the N12 (Moroka Bypass). Other main arterials in the area are: Nirvana Drive (R554) in Lenasia; Potchefstroom Road in Protea South/Klipriviersoog; Lenasia Drive (R558); and the R577 to Ennerdale.</p>
+                                <p>Region G has two small nature reserves - one next to Nancefield and Eldorado Park - the other adjacent to Orange Farm. A vlei separates Lenasia from Protea South, Klipriviersoog and Eldorado Park. The region is characterized by vast open spaces, uncultivated farmland, agricultural holdings and undeveloped land. The gradient is predominantly flat.</p>
+
+                                <h3><strong>Regional Demographic Information</strong></h3>
+
+                                <p>Region G New and Old Informal Settlements 2023</p>
+
+                                <h3><strong>Contact:</strong></h3>
+
+                                <p><strong>Regional Director: Mickey Padayachee</strong></p>
+                                <p>K43 Highway Road</p>
+                                <p>Corobrick Municipal Office</p>
+                                <p>Lenasia</p>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function toggleNestedTable(tableId) {
+            var nestedTable = document.getElementById(tableId);
+            if (nestedTable.style.display === "none" || nestedTable.style.display === "") {
+                nestedTable.style.display = "table";
+            } else {
+                nestedTable.style.display = "none";
+            }
+        }
+
+        function openFullscreen(tableId) {
+            var fullscreenTable = document.getElementById(tableId + 'Fullscreen');
+            if (fullscreenTable) {
+                fullscreenTable.style.display = "block";
+            }
+        }
+
+        function closeFullscreen(tableId) {
+            console.log('Close button clicked for tableId:', tableId);
+            var fullscreenTable = document.getElementById(tableId);
+            if (fullscreenTable) {
+                fullscreenTable.style.display = "none";
+            }
+        }
+
+        function toggleDropdown(dropdownId) {
+            var dropdown = document.getElementById(dropdownId);
+            if (dropdown.style.display === "block") {
+                dropdown.style.display = "none";
+            } else {
+                dropdown.style.display = "block";
+            }
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
